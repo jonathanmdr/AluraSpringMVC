@@ -6,3 +6,5 @@ Curso de Spring MVC da Alura cursos online.
 - Java 8
 - Spring MVC
 - Lombok
+- JPA
+- Hibernate
