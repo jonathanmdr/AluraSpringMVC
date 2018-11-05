@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="217c5956-a2af-4931-81e5-4126c6deb2c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/casadocodigo/WEB-INF/classes/br/com/casadocodigo/loja/conf/ServletSpringMVC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/casadocodigo/WEB-INF/classes/br/com/casadocodigo/loja/conf/ServletSpringMVC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/ServletSpringMVC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/casadocodigo/loja/conf/ServletSpringMVC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +63,7 @@
           <entry key="java" value="13" />
           <entry key="jsp" value="4" />
           <entry key="sql" value="7" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -75,7 +72,7 @@
           <entry key="JAVA" value="13" />
           <entry key="JSP" value="4" />
           <entry key="Scratch" value="7" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -84,8 +81,8 @@
           <entry key="java" value="2282" />
           <entry key="jsp" value="755" />
           <entry key="sql" value="128" />
-          <entry key="txt" value="361" />
-          <entry key="xml" value="124" />
+          <entry key="txt" value="390" />
+          <entry key="xml" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -93,9 +90,9 @@
           <entry key="HTML" value="27" />
           <entry key="JAVA" value="2282" />
           <entry key="JSP" value="755" />
-          <entry key="PLAIN_TEXT" value="361" />
+          <entry key="PLAIN_TEXT" value="390" />
           <entry key="Scratch" value="128" />
-          <entry key="XML" value="124" />
+          <entry key="XML" value="125" />
         </counts>
       </usages-collector>
     </session>
@@ -120,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -128,6 +125,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -197,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/ok.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/TipoPreco.java" />
@@ -210,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -367,7 +373,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541384708392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541385111836" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja" />
     <property name="last_opened_file_path" value="D:/CursoSpringMVC" />
@@ -637,7 +643,7 @@
       <workItem from="1541303192974" duration="372000" />
       <workItem from="1541304244100" duration="1509000" />
       <workItem from="1541305812984" duration="4403000" />
-      <workItem from="1541377827763" duration="6512000" />
+      <workItem from="1541377827763" duration="6831000" />
     </task>
     <task id="LOCAL-00001" summary="Criado form de produtos">
       <created>1541306627650</created>
@@ -688,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541383542809</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Redirect com escopo de flash.">
+      <created>1541384746420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541384746420</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19605000" />
+    <option name="totallyTimeSpent" value="19924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -708,7 +721,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -747,7 +760,8 @@
     <MESSAGE value="Listando os produtos cadastrados." />
     <MESSAGE value="Ajustando método de listagem de produtos." />
     <MESSAGE value="Aplicando filter com encoding no spring." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicando filter com encoding no spring." />
+    <MESSAGE value="Redirect com escopo de flash." />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirect com escopo de flash." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
@@ -772,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -883,6 +890,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
         </state>
       </provider>
     </entry>
