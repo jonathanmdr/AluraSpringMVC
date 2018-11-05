@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="217c5956-a2af-4931-81e5-4126c6deb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/DAO/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/DAO/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,38 +61,38 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="12" />
+          <entry key="java" value="13" />
           <entry key="jsp" value="4" />
-          <entry key="sql" value="5" />
+          <entry key="sql" value="7" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="13" />
           <entry key="JSP" value="4" />
-          <entry key="Scratch" value="5" />
+          <entry key="Scratch" value="7" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="27" />
-          <entry key="java" value="1992" />
+          <entry key="java" value="2140" />
           <entry key="jsp" value="738" />
-          <entry key="sql" value="120" />
-          <entry key="txt" value="246" />
+          <entry key="sql" value="128" />
+          <entry key="txt" value="320" />
           <entry key="xml" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="27" />
-          <entry key="JAVA" value="1992" />
+          <entry key="JAVA" value="2140" />
           <entry key="JSP" value="738" />
-          <entry key="PLAIN_TEXT" value="246" />
-          <entry key="Scratch" value="120" />
+          <entry key="PLAIN_TEXT" value="320" />
+          <entry key="Scratch" value="128" />
           <entry key="XML" value="124" />
         </counts>
       </usages-collector>
@@ -113,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="17">
               <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
@@ -122,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+            <state relative-caret-position="103">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +133,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/DAO/ProdutoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="174">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#513#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,16 +206,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/ok.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/AppWebConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/TipoPreco.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/Preco.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/form.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/DAO/ProdutoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" />
       </list>
     </option>
@@ -336,6 +359,10 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="produtos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="casadocodigo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -347,7 +374,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541310240650" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541383504172" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja" />
     <property name="last_opened_file_path" value="D:/CursoSpringMVC" />
@@ -617,7 +644,7 @@
       <workItem from="1541303192974" duration="372000" />
       <workItem from="1541304244100" duration="1509000" />
       <workItem from="1541305812984" duration="4403000" />
-      <workItem from="1541377827763" duration="3789000" />
+      <workItem from="1541377827763" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="Criado form de produtos">
       <created>1541306627650</created>
@@ -647,11 +674,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541380654344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Listando os produtos cadastrados.">
+      <created>1541382046623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541382046623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ajustando método de listagem de produtos.">
+      <created>1541383033316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541383033316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16882000" />
+    <option name="totallyTimeSpent" value="18351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -667,7 +708,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -703,7 +744,9 @@
     <MESSAGE value="Configuração JPA com Hibernate.&#10;- cadastrando produtos no banco de dados MySQL" />
     <MESSAGE value="Adicionando o uso de ModelAndView e cadastro de preços por tipo." />
     <MESSAGE value="Ajustando o form de cadastro de produtos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustando o form de cadastro de produtos." />
+    <MESSAGE value="Listando os produtos cadastrados." />
+    <MESSAGE value="Ajustando método de listagem de produtos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustando método de listagem de produtos." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html" />
@@ -748,17 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-85">
@@ -796,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -813,27 +838,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/707fc479-ddb6-43d0-91de-4cd17b26cf2c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produtos/lista.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="17">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/DAO/ProdutoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="174">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#513#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/ServletSpringMVC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        <state relative-caret-position="103">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
