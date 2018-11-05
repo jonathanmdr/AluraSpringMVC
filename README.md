@@ -8,3 +8,4 @@ Curso de Spring MVC da Alura cursos online.
 - Lombok
 - JPA
 - Hibernate
+- MySQL
