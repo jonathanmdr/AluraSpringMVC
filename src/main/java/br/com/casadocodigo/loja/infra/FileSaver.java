@@ -6,7 +6,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
-import java.io.IOException;
 
 @Component
 public class FileSaver {
@@ -22,8 +21,8 @@ public class FileSaver {
             file.transferTo(new File(path));
 
             return baseFolder.concat("/").concat(file.getOriginalFilename());
-        } catch (IOException e) {
-            throw new RuntimeException();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 

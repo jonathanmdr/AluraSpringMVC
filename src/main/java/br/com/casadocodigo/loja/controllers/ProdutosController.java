@@ -49,7 +49,7 @@ public class ProdutosController {
             return form(produto);
         }
 
-        String path = fileSaver.write("arquivos-sumarios", sumario);
+        String path = fileSaver.write("arquivos-sumario", sumario);
         produto.setSumarioPath(path);
 
         produtoDAO.gravar(produto);
