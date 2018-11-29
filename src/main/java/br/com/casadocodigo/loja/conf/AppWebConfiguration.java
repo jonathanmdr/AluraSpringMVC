@@ -3,6 +3,7 @@ package br.com.casadocodigo.loja.conf;
 import br.com.casadocodigo.loja.DAO.ProdutoDAO;
 import br.com.casadocodigo.loja.controllers.HomeController;
 import br.com.casadocodigo.loja.infra.FileSaver;
+import br.com.casadocodigo.loja.models.CarrinhoCompras;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,14 +18,16 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = {HomeController.class, ProdutoDAO.class, FileSaver.class})
+@ComponentScan(basePackageClasses = {HomeController.class, ProdutoDAO.class, FileSaver.class, CarrinhoCompras.class})
 public class AppWebConfiguration {
 
     @Bean
     public InternalResourceViewResolver internalResourceViewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+
         resolver.setPrefix("/WEB-INF/views/");
         resolver.setSuffix(".jsp");
+        resolver.setExposedContextBeanNames("carrinhoCompras");
 
         return resolver;
     }
@@ -32,6 +35,7 @@ public class AppWebConfiguration {
     @Bean
     public MessageSource messageSource() {
         ReloadableResourceBundleMessageSource source = new ReloadableResourceBundleMessageSource();
+
         source.setBasename("/WEB-INF/messages");
         source.setDefaultEncoding("UTF-8");
         source.setCacheSeconds(1);
