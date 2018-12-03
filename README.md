@@ -10,3 +10,5 @@ Criando um simples carrinho de compras.
 - JPA
 - Hibernate
 - MySQL
+- JUnit
+- Mockito
