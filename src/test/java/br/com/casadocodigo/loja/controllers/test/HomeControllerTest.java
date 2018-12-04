@@ -26,5 +26,7 @@ public class HomeControllerTest {
     @Test
     public void index() {
         assertEquals("home", subject.index());
+        assertTrue("home".equals(subject.index()));
+        assertFalse(!"home".equals(subject.index()));
     }
 }
