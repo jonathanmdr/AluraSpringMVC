@@ -12,3 +12,4 @@ Criando um simples carrinho de compras.
 - MySQL
 - JUnit
 - Mockito
+- Jenkins
