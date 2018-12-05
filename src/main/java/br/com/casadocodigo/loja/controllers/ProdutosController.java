@@ -30,6 +30,11 @@ public class ProdutosController {
     @Autowired
     private FileSaver fileSaver;
 
+    public ProdutosController(ProdutoDAO produtoDAO, FileSaver fileSaver) {
+        this.produtoDAO = produtoDAO;
+        this.fileSaver = fileSaver;
+    }
+
     @InitBinder
     public void initBinder(WebDataBinder binder) {
         binder.addValidators(new ProdutoValidation());
