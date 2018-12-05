@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="217c5956-a2af-4931-81e5-4126c6deb2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/controllers/test/ProdutosControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/controllers/test/ProdutosControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/controllers/test/ProdutosControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest.ic" NAME="ProdutosControllerTest Coverage Results" MODIFIED="1544016292525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest.ic" NAME="ProdutosControllerTest Coverage Results" MODIFIED="1544040018376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest_gravar.ic" NAME="ProdutosControllerTest.gravar Coverage Results" MODIFIED="1544039899480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/casadocodigo$HomeControllerTest_pageTest.ic" NAME="HomeControllerTest.pageTest Coverage Results" MODIFIED="1543798268465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -28,11 +30,11 @@
     <SUITE FILE_PATH="coverage/AluraSpringMVC$HomeControllerTest.ic" NAME="HomeControllerTest Coverage Results" MODIFIED="1543955772197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest_initBinder.ic" NAME="ProdutosControllerTest.initBinder Coverage Results" MODIFIED="1544015166312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>br.com.casadocodigo.loja.controllers.*</FILTER>
+    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest_initBinder.ic" NAME="ProdutosControllerTest.initBinder Coverage Results" MODIFIED="1544037035650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest_form.ic" NAME="ProdutosControllerTest.form Coverage Results" MODIFIED="1544014816091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>br.com.casadocodigo.loja.controllers.*</FILTER>
+    <SUITE FILE_PATH="coverage/AluraSpringMVC$ProdutosControllerTest_form.ic" NAME="ProdutosControllerTest.form Coverage Results" MODIFIED="1544039458328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/casadocodigo$HomeControllerTest.ic" NAME="HomeControllerTest Coverage Results" MODIFIED="1543799368991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>br.com.casadocodigo.loja.controllers.test.*</FILTER>
@@ -73,15 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/controllers/test/ProdutosControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="128">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -89,12 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -320,8 +315,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +324,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544016556684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544040031788" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -425,7 +420,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutosControllerTest.initBinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutosControllerTest.gravar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="casadocodigo" />
       <extension name="coverage">
         <pattern>
@@ -435,8 +430,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.casadocodigo.loja.controllers.test" />
       <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.loja.controllers.test.ProdutosControllerTest" />
+      <option name="METHOD_NAME" value="gravar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutosControllerTest.initBinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="casadocodigo" />
+      <extension name="coverage" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="br.com.casadocodigo.loja.controllers.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.casadocodigo.loja.controllers.test" />
+      <option name="MAIN_CLASS_NAME" value="br.com.casadocodigo.loja.controllers.test.ProdutosControllerTest" />
       <option name="METHOD_NAME" value="initBinder" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -588,16 +600,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.HomeControllerTest" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.53" />
       <item itemvalue="JUnit.ProdutosControllerTest" />
       <item itemvalue="JUnit.ProdutosControllerTest.form" />
       <item itemvalue="JUnit.ProdutosControllerTest.initBinder" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.53" />
+      <item itemvalue="JUnit.ProdutosControllerTest.gravar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProdutosControllerTest" />
-        <item itemvalue="JUnit.ProdutosControllerTest.initBinder" />
+        <item itemvalue="JUnit.ProdutosControllerTest.gravar" />
         <item itemvalue="JUnit.ProdutosControllerTest.form" />
+        <item itemvalue="JUnit.ProdutosControllerTest.initBinder" />
         <item itemvalue="JUnit.HomeControllerTest" />
       </list>
     </recent_temporary>
@@ -646,7 +660,8 @@
       <workItem from="1543929540161" duration="2583000" />
       <workItem from="1543954577346" duration="2537000" />
       <workItem from="1544012850645" duration="74000" />
-      <workItem from="1544013054793" duration="3455000" />
+      <workItem from="1544013054793" duration="3873000" />
+      <workItem from="1544036774198" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="Criado form de produtos">
       <created>1541306627650</created>
@@ -781,43 +796,50 @@
       <option name="project" value="LOCAL" />
       <updated>1543955869899</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implementando testes da ProdutosController&#10;- 50% da classe realizado.">
+      <created>1544016619595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544016619595</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProdutosControllerTest_form - 2018.12.05 at 11h 00m 21s.xml">
+    <history-entry file="ProdutosControllerTest_form - 2018.12.05 at 17h 33m 59s.xml">
       <configuration name="ProdutosControllerTest.form" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProdutosControllerTest_initBinder - 2018.12.05 at 11h 06m 11s.xml">
-      <configuration name="ProdutosControllerTest.initBinder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 06m 36s.xml">
+    <history-entry file="ProdutosControllerTest - 2018.12.05 at 17h 41m 08s.xml">
       <configuration name="ProdutosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 17m 39s.xml">
+    <history-entry file="ProdutosControllerTest_form - 2018.12.05 at 17h 42m 44s.xml">
+      <configuration name="ProdutosControllerTest.form" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProdutosControllerTest - 2018.12.05 at 17h 44m 11s.xml">
       <configuration name="ProdutosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 20m 28s.xml">
+    <history-entry file="ProdutosControllerTest - 2018.12.05 at 17h 46m 44s.xml">
       <configuration name="ProdutosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 21m 23s.xml">
+    <history-entry file="ProdutosControllerTest_form - 2018.12.05 at 17h 48m 08s.xml">
+      <configuration name="ProdutosControllerTest.form" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProdutosControllerTest_form - 2018.12.05 at 17h 51m 04s.xml">
+      <configuration name="ProdutosControllerTest.form" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProdutosControllerTest_gravar - 2018.12.05 at 17h 58m 24s.xml">
+      <configuration name="ProdutosControllerTest.gravar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProdutosControllerTest - 2018.12.05 at 17h 59m 05s.xml">
       <configuration name="ProdutosControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 22m 38s.xml">
-      <configuration name="ProdutosControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 23m 42s.xml">
-      <configuration name="ProdutosControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 24m 11s.xml">
-      <configuration name="ProdutosControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutosControllerTest - 2018.12.05 at 11h 24m 57s.xml">
+    <history-entry file="ProdutosControllerTest - 2018.12.05 at 18h 00m 23s.xml">
       <configuration name="ProdutosControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80416000" />
+    <option name="totallyTimeSpent" value="83893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,7 +854,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2700454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -840,10 +862,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.41080198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -851,13 +872,14 @@
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50378215" side_tool="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045386" side_tool="true" weight="0.41080198" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49924356" weight="0.2651391" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -869,7 +891,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.25718608" />
+      <window_info active="true" anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.25718608" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -935,7 +957,8 @@
     <MESSAGE value="Incluindo escopo de sessão&#10;- Adicionado escopo de sessão ao carrinho de compras.&#10;- Adicionado escopo de requisição ao controller do carrinho de comrpas." />
     <MESSAGE value="Alteração do badges de ítens no carrinho e botão comprar." />
     <MESSAGE value="Alteração nos testes da HomeControllerTest&#10;- Testando integração contínua com Jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração nos testes da HomeControllerTest&#10;- Testando integração contínua com Jenkins" />
+    <MESSAGE value="Implementando testes da ProdutosController&#10;- 50% da classe realizado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando testes da ProdutosController&#10;- 50% da classe realizado." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1127,29 +1150,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.0.RELEASE/spring-context-4.1.0.RELEASE.jar!/org/springframework/validation/DataBinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProdutosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/controllers/test/ProdutosControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
