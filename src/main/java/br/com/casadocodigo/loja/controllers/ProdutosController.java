@@ -30,6 +30,9 @@ public class ProdutosController {
     @Autowired
     private FileSaver fileSaver;
 
+    public ProdutosController() {
+    }
+
     public ProdutosController(ProdutoDAO produtoDAO, FileSaver fileSaver) {
         this.produtoDAO = produtoDAO;
         this.fileSaver = fileSaver;

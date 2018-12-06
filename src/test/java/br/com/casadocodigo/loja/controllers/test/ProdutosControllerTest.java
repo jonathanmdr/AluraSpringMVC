@@ -12,7 +12,6 @@ import br.com.casadocodigo.loja.infra.FileSaver;
 import br.com.casadocodigo.loja.models.Produto;
 import br.com.casadocodigo.loja.models.TipoPreco;
 import br.com.casadocodigo.loja.validation.ProdutoValidation;
-import java.util.ArrayList;
 import java.util.List;
 import org.junit.Before;
 import org.junit.Rule;
