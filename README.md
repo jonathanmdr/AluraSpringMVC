@@ -13,3 +13,4 @@ Criando um simples carrinho de compras.
 - JUnit
 - Mockito
 - Jenkins
+- SonarLint

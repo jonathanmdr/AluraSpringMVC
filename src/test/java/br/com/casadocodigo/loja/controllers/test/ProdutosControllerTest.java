@@ -32,6 +32,8 @@ public class ProdutosControllerTest {
 
     private ProdutosController subject;
 
+    private static final int ID_PRODUTO = 1;
+
     @Mock
     private ProdutoDAO produtoDAO;
 
@@ -119,15 +121,15 @@ public class ProdutosControllerTest {
         Produto produto = mock(Produto.class);
         ProdutosController produtosController = mock(ProdutosController.class);
 
-        when(produtoDAO.find(1)).thenReturn(produto);
+        when(produtoDAO.find(ID_PRODUTO)).thenReturn(produto);
         modelAndView.addObject(produto);
 
-        when(produtosController.detalhe(1)).thenReturn(modelAndView);
+        when(produtosController.detalhe(ID_PRODUTO)).thenReturn(modelAndView);
 
         expectedException.expect(NullPointerException.class);
-        produtoDAO.find(1);
+        produtoDAO.find(ID_PRODUTO);
 
-        doThrow(NullPointerException.class).when(produtoDAO).find(1);
-        subject.detalhe(1);
+        doThrow(NullPointerException.class).when(produtoDAO).find(ID_PRODUTO);
+        subject.detalhe(ID_PRODUTO);
     }
 }
