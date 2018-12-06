@@ -1,6 +1,7 @@
 package br.com.casadocodigo.loja.controllers.test;
 
 import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -11,6 +12,8 @@ import br.com.casadocodigo.loja.infra.FileSaver;
 import br.com.casadocodigo.loja.models.Produto;
 import br.com.casadocodigo.loja.models.TipoPreco;
 import br.com.casadocodigo.loja.validation.ProdutoValidation;
+import java.util.ArrayList;
+import java.util.List;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -50,6 +53,9 @@ public class ProdutosControllerTest {
     @Mock
     private RedirectAttributes redirectAttributes;
 
+    @Mock
+    private List<Produto> produtos;
+
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
 
@@ -68,16 +74,60 @@ public class ProdutosControllerTest {
     public void form() {
         Produto produto = mock(Produto.class);
         ProdutosController produtosController = mock(ProdutosController.class);
+
         subject.form(produto);
         modelAndView.addObject("tipos", TipoPreco.values());
+
         when(produtosController.form(produto)).thenReturn(modelAndView);
     }
 
     @Test
     public void gravar() {
         Produto produto = mock(Produto.class);
+        ProdutosController produtosController = mock(ProdutosController.class);
 
+        when(bindingResult.hasErrors()).thenReturn(true);
+
+        doThrow(NullPointerException.class).when(produtoDAO).gravar(produto);
         subject.gravar(multipartFile, produto, bindingResult, redirectAttributes);
-        verify(produtoDAO).gravar(any(Produto.class));
+
+        when(produtosController.gravar(multipartFile, produto, bindingResult, redirectAttributes)).thenReturn(modelAndView);
+
+        expectedException.expect(NullPointerException.class);
+        produtoDAO.gravar(produto);
+    }
+
+    @Test
+    public void listar() {
+        ProdutosController produtosController = mock(ProdutosController.class);
+
+        when(produtoDAO.listar()).thenReturn(produtos);
+
+        modelAndView.addObject("produtos", produtos);
+
+        expectedException.expect(NullPointerException.class);
+        produtoDAO.listar();
+
+        doThrow(NullPointerException.class).when(produtoDAO).listar();
+        subject.listar();
+
+        when(produtosController.listar()).thenReturn(modelAndView);
+    }
+
+    @Test
+    public void detalhe() {
+        Produto produto = mock(Produto.class);
+        ProdutosController produtosController = mock(ProdutosController.class);
+
+        when(produtoDAO.find(1)).thenReturn(produto);
+        modelAndView.addObject(produto);
+
+        when(produtosController.detalhe(1)).thenReturn(modelAndView);
+
+        expectedException.expect(NullPointerException.class);
+        produtoDAO.find(1);
+
+        doThrow(NullPointerException.class).when(produtoDAO).find(1);
+        subject.detalhe(1);
     }
 }
